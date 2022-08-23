@@ -12,7 +12,7 @@ const GetRemoteDataHandler = {
   async handle(handlerInput) {
     let outputSpeech = 'This is the default message.';
 
-    await getRemoteData('http://76.70.90.119/?r0g0b0')
+    await getRemoteData('http://76.70.90.119/?r255g255b255')
       .then((response) => {
         outputSpeech = ``;
       })
